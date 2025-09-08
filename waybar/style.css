@@ -1,0 +1,132 @@
+* {
+    font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
+    font-size: 14px;
+}
+
+window#waybar {
+    background-color: rgba (44, 44, 44, 0.3);
+}
+
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#wireplumber,
+#custom-media,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+    padding: 0 10px;
+    color: #ffffff;
+}
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+    color: white;
+    background: rgba (55, 55, 55, 0.35);
+    border-radius: 20px;
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+    margin-left: 6.5px;
+    padding: 0 10px;
+}
+
+#custom-gpu-usage, 
+#custom-gpu-temp,
+#cpu,
+#memory,
+#custom-cpu-temp
+{
+    color: white;
+    background: rgba (55, 55, 55, 0.35);
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+    padding: 0 17px;
+}
+#pulseaudio
+{
+    color: white;
+    background: rgba (55, 55, 55, 0.35);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0 15px;
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+}
+
+#custom-separator,
+#language
+{
+    color: white;
+    background: rgba (55, 55, 55, 0.35);
+    padding: 0 10px;
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+}
+#tray {
+    color: white;
+    background: rgba (55, 55, 55, 0.35);
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;   
+    padding-left: 20px;
+}
+#memory,
+#keyboard-state,
+#custom-music
+{
+    color: white;
+    background: rgba (55, 55, 55, 0.35);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0 10px;
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+    margin-right: 6.5px;
+}
+#window,
+#custom-os,
+#custom-gpu-usage
+{
+    color: white;
+    background: rgba (55, 55, 55, 0.35);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0 15px;
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+}
+#custom-network-status {
+    font-size: 17px;
+    color: white;
+    background: rgba (55, 55, 55, 0.35);
+    margin-right: 6.5px;
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+#custom-os {
+    margin-left: 6.5px;
+}
+
+#window {
+    padding: 0 25px;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #000000;
+}

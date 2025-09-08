@@ -1,0 +1,110 @@
+// -*- mode: jsonc -*-
+{
+    "position": "top",
+    "layer": "top",
+    "height": 38,
+    "spacing": 0,
+
+    "modules-left": [
+        "clock"
+    ],
+    "modules-center": [
+        "custom/gpu-usage",
+        "custom/separator",
+        "custom/gpu-temp",
+        "custom/separator",
+        "cpu",
+        "custom/separator",
+        "custom/cpu-temp",
+        "custom/separator",
+        "memory"
+    ],
+    "modules-right": [
+        "pulseaudio",
+	    "custom/separator",
+        "tray",
+        "custom/network-status"
+    ],
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon}",
+        "tooltip": false,
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+    "tray": {
+        "icon-size": 19,
+        "spacing": 9,
+	"show-passive-items": true,
+	"expand": true,
+        "tooltip": false
+    },
+    "clock": {
+        "timezone": "Europe/Moscow",
+        "format": "{:%b %d, %a     %H:%M:%S}",
+        "interval": 1,
+	"tooltip": false
+    },
+    "cpu": {
+        "format": "cpu usage: {usage:3}%",
+        "tooltip": false,
+        "interval": 1
+    },
+    "memory": {
+        "format": "ram usage: {:>3}% ",
+        "tooltip": false
+    },
+    "pulseaudio": {
+        "scroll-step": 0, 
+        "format": " {volume}% {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": "  {volume}% {format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": "  {volume}%",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+	"tooltip": false
+    },
+    "custom/gpu-usage": {
+        "format": "gpu usage: {:>3}%",
+        "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+        "interval": 1,
+        "tooltip": false
+    },
+    "custom/gpu-temp": {
+        "format": "gpu temperature: {:>3}°C",
+        "exec": "nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits",
+        "interval": 1,
+        "tooltip": false
+    },
+    "custom/cpu-temp":{
+        "format": "cpu temperature: {:>3}",
+        "exec": "/etc/xdg/waybar/cpu-temp.sh",
+        "return-type": "json",
+        "interval": 1,
+        "tooltip": false
+    },
+    "custom/separator": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/network-status": {
+        "format": "{}",
+        "exec": "/etc/xdg/waybar/network-status.sh",
+        "return-type": "json",
+        "on-click": "nm-connection-editor",
+        "tooltip": false
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "logo": {
+        "type": "small",
+        "padding": {
+            "top": 3
+        },
+        "color": {
+          "1": "white",
+          "2": "white"
+        }
+    },
+  "modules": [
+        {
+            "key": "{#white}user   {#keys}",
+            "type": "title",
+            "format": "{user-name}"
+        },
+        {
+            "key": "{#white}host   {#keys}",
+            "type": "title",
+            "format": "{host-name}"
+        },
+        {
+            "key": "{#white}pkg    {#keys}",
+            "type": "packages"
+        },
+        {
+            "key": "{#white}os     {#keys}",
+            "type": "os"
+        },
+        {
+            "key": "{#white}kernel {#keys}",
+            "type": "kernel"
+        },
+        {
+            "key": "{#white}wm     {#keys}",
+            "type": "wm"
+        },
+        {
+            "key": "{#white}term   {#keys}",
+            "type": "terminal"
+        },
+        {
+            "key": "{#white}shell  {#keys}",
+            "type": "shell"
+        },
+        {
+            "key": "{#white}gpu    {#keys}",
+            "type": "gpu"
+        },
+        {
+            "key": "{#white}cpu    {#keys}",
+            "type": "cpu"
+        },
+        {
+            "key": "{#white}disk   {#keys}",
+            "type": "disk",
+            "folders": "/"
+        },
+        {
+            "key": "{#white}memory {#keys}",
+            "type": "memory"
+        },
+        {
+            "key": "{#white}colors {#keys}",
+            "type": "colors",
+            "symbol": "circle"
+        }
+    ]
+}

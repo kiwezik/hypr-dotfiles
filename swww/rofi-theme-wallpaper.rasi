@@ -1,0 +1,47 @@
+* {
+    text-color: rgba(255, 255, 255, 1);
+    background-color: rgba(55, 55, 55, 0.1);
+}
+
+window {
+    height: 460px;
+    width: 1350px;
+}
+
+inputbar {
+    enabled: false;
+}
+
+listview {
+    columns: 5;
+    spacing: 25px;
+    padding: 20px 20px;
+    cycle: true;
+    dynamic: false;
+    layout: vertical;
+}
+
+element {
+    orientation: vertical;
+    spacing: 0px;
+    padding: 0px;
+    border-radius: 8px;
+    background-color: rgba(44, 44, 44, 0.3);
+}
+
+element selected {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+element-icon {
+    size: 33%;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+element-text {
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+    padding: 20px;
+    background-color: transparent;
+}

@@ -1,0 +1,105 @@
+# put this file in "/var/lib/flatpak/app/com.github.taiko2k.tauonmb/current/active/files/bin/src/tauon/theme/Charmed"(for flatpak) and choose Charmed theme in tauon settings.
+
+#Tauon Music Box theme file
+
+#-Backgrounds-----
+
+44,44,44,77		player background (top panel)
+44,44,44,77	  	playlist panel
+44,44,44,77		side panel
+44,44,44,77		side panel
+44,44,44,77		bottom panel
+44,44,44,77		bottom panel
+44,44,44,77        queue panel
+44,44,44,77        gallery background
+
+#-Playlist-------
+
+255,255,255		track line
+255,255,255		track time
+255,255,255		track index
+255,255,255		track artist
+255,255,255		album line
+
+255,255,255		track playing
+255,255,255		index playing
+255,255,255		artist playing
+255,255,255		album playing
+255,255,255		time playing
+
+136,136,136		track missing
+
+204,204,204		fav line
+68,68,68		folder line
+238,238,238		folder title
+
+255,255,255,30		playing highlight
+255,255,255,40		select highlight
+86,182,176		gallery highlight
+
+#-Menu-------------
+
+55,55,55        menu background
+68,68,68        menu highlight
+255,255,255     menu text
+128,128,128        menu disable text
+68,68,68        menu border
+
+#-Dialog box---------
+
+55,55,55        box background
+68,68,68        box border
+
+255,255,255     box title text
+204,204,204     box text label
+
+255,255,255     box text normal
+255,255,255     box sub text
+255,255,255     box input text
+68,68,68        box text border
+
+255,255,255     box button text normal
+255,255,255     box button text highlight
+68,68,68        box button background normal
+102,102,102        box button background highlight
+68,68,68        box button border
+
+#-Bottom panel------
+
+255,255,255,130		buttons off
+255,255,255		buttons over
+255,255,255		buttons active
+
+255,255,255		playing time
+
+255,255,255		seek bar
+255,255,255		volume bar
+255,255,255,60		seek bg
+255,255,255,60		volume bg
+68,68,68,89		scroll bar
+
+255,255,255,100		mode off
+255,255,255		mode over
+255,255,255		mode on
+
+255,255,255		bottom title
+
+#-Top panel---------
+
+255,255,255		tab active line
+238,238,238		tab line
+55,55,55,89		tab background
+68,68,68,89		tab over
+102,102,102,89		tab active background
+204,204,204		music vis
+
+#-Side panel--------
+
+255,255,255		title info
+238,238,238		extra info
+55,55,55,89		art border
+
+#-Mini Mode---------
+
+38,38,38,89        mini bg
+68,68,68,89        mini border

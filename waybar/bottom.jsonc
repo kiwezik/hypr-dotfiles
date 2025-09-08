@@ -1,0 +1,61 @@
+// -*- mode: jsonc -*-
+{
+    "position": "bottom",
+    "layer": "top",   
+    "height": 38,
+    "spacing": 0,
+    
+    "modules-left": [
+        "custom/os",
+        "custom/separator",
+        "custom/music"
+    ],
+    "modules-center": [
+    ],
+    "modules-right": [
+        "hyprland/window",
+        "custom/separator",
+        "hyprland/language",
+        "custom/separator",
+        "keyboard-state"
+    ],
+
+    "keyboard-state": {
+        "numlock": false,
+        "capslock": true,
+        "format": "{icon}",
+        "tooltip": false,
+        "format-icons": {
+            "unlocked": "  caps",
+            "locked": "  CAPS"
+        }
+    },
+    "custom/separator": {
+        "format": "   "
+    },
+    "hyprland/language": {
+        "format": "{}",
+        "tooltip": false,
+        "format-en": "english",
+        "format-ru": "russian"
+    },
+        "custom/music": {
+        "format": "{}",
+        "return-type": "json",
+        "tooltip": false,
+        "exec": "~/Dotfiles/waybar/music-module --whitelist 'tauon' --format '%icon%  now playing: %artist% - %title%'"
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "tooltip": false,
+        "max-length": 90,
+        "rewrite": {
+                    "": "why u just staring at your wallpaper?"
+            }
+    },
+    "custom/os": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "pkill rofi || rofi -show drun"
+    }
+}
