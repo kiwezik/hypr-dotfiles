@@ -10,9 +10,10 @@ Just another Hyprland dotfiles. I like monochrome and transparent things, so I m
 - **Window Manager**: Hyprland
 - **Bar**: Waybar
 - **Application Launcher**: Rofi
-- **Wallpaper Manager**: swww + Rofi
-- **Clipboard Manager**: cliphist + Rofi
-- **Terminal**: kitty
+- **Wallpaper Manager**: SWWW + Rofi
+- **Clipboard Manager**: Cliphist + Rofi
+- **Screenshot Tool**: Grim + Slurp
+- **Terminal**: Kitty
 - **System Info**: Fastfetch
 - **Music Player**: Tauon Music Box + custom theme
 
