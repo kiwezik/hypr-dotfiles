@@ -39,6 +39,6 @@ done
 wall_selection=$(find "${wall_dir}" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) -exec basename {} \; | sort -V | while read -r A ; do echo -en "$A\x00icon\x1f""${cacheDir}"/"$A\n" ; done | $rofi_command)
 # Set the wallpaper
 [[ -n "$wall_selection" ]] || exit 1
-swww img ${wall_dir}/${wall_selection}
+swww img ${wall_dir}/${wall_selection} -t wipe --transition-duration=0.7 --transition-fps=120 
 
 exit 0
