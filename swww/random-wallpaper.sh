@@ -7,4 +7,4 @@ if [ ${#wallpapers[@]} -eq 0 ]; then
 fi
 wallpaperIndex=$(( RANDOM % ${#wallpapers[@]} ))
 selectedWallpaper="${wallpapers[$wallpaperIndex]}"
-swww img "$selectedWallpaper"
+swww img "$selectedWallpaper" -t wipe --transition-duration=0.7 --transition-fps=120 
