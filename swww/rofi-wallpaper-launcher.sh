@@ -7,7 +7,7 @@
 # Set some variables
 wall_dir="${HOME}/Pictures/Wallpapers"
 cacheDir="${HOME}/.cache/jp/${theme}"
-rofi_command="rofi -dmenu -theme ${HOME}/Dotfiles/swww/rofi-theme-wallpaper.rasi"
+rofi_command="rofi -dmenu -theme ${HOME}/hypr-dotfiles/swww/rofi-theme-wallpaper.rasi"
 
 # Create cache dir if not exists
 if [ ! -d "${cacheDir}" ] ; then
