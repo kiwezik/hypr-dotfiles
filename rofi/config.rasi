@@ -5,4 +5,4 @@ configuration {
 	show-icons:      true;
 	sidebar-mode:    true;
 }
-@theme "~/Dotfiles/rofi/theme.rasi"
+@theme "~/hypr-dotfiles/rofi/theme.rasi"
