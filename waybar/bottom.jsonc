@@ -43,7 +43,7 @@
         "format": "{}",
         "return-type": "json",
         "tooltip": false,
-        "exec": "~/Dotfiles/waybar/music-module --whitelist 'tauon' --format '%icon%  now playing: %artist% - %title%'"
+        "exec": "~/hypr-dotfiles/waybar/music-module/target/release/waybar-module-music --format 'now playing: %artist% - %title%'"
     },
     "hyprland/window": {
         "format": "{}",

@@ -43,7 +43,6 @@
         "tooltip": false
     },
     "clock": {
-        "timezone": "Europe/Moscow",
         "format": "{:%b %d, %a     %H:%M:%S}",
         "interval": 1,
 	"tooltip": false
@@ -91,7 +90,7 @@
     },
     "custom/cpu-temp":{
         "format": "cpu temperature: {:>3}",
-        "exec": "/etc/xdg/waybar/cpu-temp.sh",
+        "exec": "~/hypr-dotfiles/waybar/cpu-temp.sh",
         "return-type": "json",
         "interval": 1,
         "tooltip": false
@@ -102,7 +101,7 @@
     },
     "custom/network-status": {
         "format": "{}",
-        "exec": "/etc/xdg/waybar/network-status.sh",
+        "exec": "~/hypr-dotfiles/waybar/network-status.sh",
         "return-type": "json",
         "on-click": "nm-connection-editor",
         "tooltip": false
