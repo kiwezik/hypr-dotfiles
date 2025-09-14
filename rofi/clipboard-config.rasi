@@ -1,0 +1,6 @@
+configuration {
+	modi: "drun";
+	display-drun: "Clipboard";
+	show-icons: false;
+}
+@theme "~/hypr-dotfiles/rofi/clipboard-theme.rasi"
