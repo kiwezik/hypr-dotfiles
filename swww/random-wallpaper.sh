@@ -1,5 +1,5 @@
 #!/bin/bash
-wallpapersDir="$HOME/Pictures/Wallpapers"
+wallpapersDir="$HOME/Wallpapers"
 wallpapers=("$wallpapersDir"/*)
 if [ ${#wallpapers[@]} -eq 0 ]; then
     echo "No wallpapers found in $wallpapersDir"

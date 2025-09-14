@@ -5,7 +5,7 @@
 #   also delete thumbnails in ~/.cache/jp/ORIGINFILE 
 
 # Set some variables
-wall_dir="${HOME}/Pictures/Wallpapers"
+wall_dir="${HOME}/Wallpapers"
 cacheDir="${HOME}/.cache/jp/${theme}"
 rofi_command="rofi -dmenu -theme ${HOME}/hypr-dotfiles/swww/rofi-theme-wallpaper.rasi"
 
