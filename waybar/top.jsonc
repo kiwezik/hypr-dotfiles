@@ -43,7 +43,7 @@
         "tooltip": false
     },
     "clock": {
-        "format": "{:%b %d, %a     %H:%M:%S}",
+        "format": "{:%b %d, %a    %H:%M:%S}",
         "interval": 1,
 	"tooltip": false
     },
@@ -59,22 +59,13 @@
     "pulseaudio": {
         "scroll-step": 0, 
         "format": " {volume}% {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": "  {volume}% {format_source}",
+        "format-bluetooth": " {volume}% {format_source}",
+        "format-bluetooth-muted": "󰂲 {volume}% {format_source}",
+        "format-muted": " {volume}% {format_source}",
         "format-source": " {volume}%",
-        "format-source-muted": "  {volume}%",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
+        "format-source-muted": " {volume}%",
         "on-click": "pavucontrol",
-	"tooltip": false
+	    "tooltip": false
     },
     "custom/gpu-usage": {
         "format": "gpu usage: {:>3}%",

@@ -31,7 +31,7 @@
         }
     },
     "custom/separator": {
-        "format": "   "
+        "format": ""
     },
     "hyprland/language": {
         "format": "{}",
