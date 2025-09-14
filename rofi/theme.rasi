@@ -1,6 +1,6 @@
 * {
     text-color: rgba(255, 255, 255, 1);
-    background-color: rgba (55, 55, 55, 0.1);
+    background-color: rgba (44, 44, 44, 0.3);
 }
 #window {
     height: 422px;
