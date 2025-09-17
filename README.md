@@ -18,7 +18,6 @@ Just another Hyprland dotfiles. I like monochrome and transparent things, so I m
 - **Music Player**: Tauon Music Box + custom theme
 
 # WIP
-- VIM theme & stuff
 - Firefox theme
 - Discord theme
 - GTK (and maybe Qt) themes
