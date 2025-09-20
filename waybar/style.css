@@ -36,6 +36,8 @@ window#waybar {
     background: rgba (55, 55, 55, 0.35);
     border-radius: 20px;
     margin-top: 4.5px;
+    margin-top: 4.5px;
+
     margin-bottom: 4.5px;
     margin-left: 6.5px;
 
@@ -57,9 +59,6 @@ window#waybar {
 {
     color: white;
     background: rgba (55, 55, 55, 0.35);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-
     margin-top: 4.5px;
     margin-bottom: 4.5px;
 }
@@ -86,9 +85,6 @@ window#waybar {
 {
     color: white;
     background: rgba (55, 55, 55, 0.35);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-
     margin-top: 4.5px;
     margin-bottom: 4.5px;
     margin-right: 6.5px;
@@ -99,9 +95,6 @@ window#waybar {
 {
     color: white;
     background: rgba (55, 55, 55, 0.35);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-
     margin-top: 4.5px;
     margin-bottom: 4.5px;
 }
@@ -112,17 +105,12 @@ window#waybar {
     margin-right: 6.5px;
     margin-top: 4.5px;
     margin-bottom: 4.5px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
 
 }
 #custom-os {
     margin-left: 6.5px;
 }
 
-#window {
-
-}
 
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
