@@ -3,8 +3,9 @@
     background-color: rgba (44, 44, 44, 0.3);
 }
 #window {
-    height: 422px;
+    height: 438px;
     width: 40%;
+    border-radius: 8px;
 }
 #mode-switcher {
     background-color: rgba (55, 55, 55, 0.35);
@@ -15,11 +16,6 @@
 }
 #button selected {
     background-color: rgba (255, 255, 255, 0.35);
-}
-#inputbar {
-    background-color: rgba (55, 55, 55, 0.35);
-    border-radius: 8px;
-    padding: 4px;
 }
 #element selected normal {
     background-color: rgba (255, 255, 255, 0.35);
