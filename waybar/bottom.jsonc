@@ -26,12 +26,12 @@
         "format": "{icon}",
         "tooltip": false,
         "format-icons": {
-            "unlocked": "  caps",
-            "locked": "  CAPS"
+            "unlocked": "capslock",
+            "locked": "CAPSLOCK"
         }
     },
     "custom/separator": {
-        "format": ""
+        "format": "~"
     },
     "hyprland/language": {
         "format": "{}",
