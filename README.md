@@ -11,7 +11,7 @@ I like transparent things, so I made this.
 ![1](/screenshots/1.png?raw=true)
 ![2](/screenshots/2.png?raw=true)
 ![3](/screenshots/3.png?raw=true)
-
+![Hyprlock](/screenshots/hyprlock.png?raw=true)
 # Components
 - **Window Manager**: Hyprland
 - **Bar**: Waybar
@@ -19,6 +19,7 @@ I like transparent things, so I made this.
 - **Wallpaper Manager**: SWWW + Rofi
 - **Clipboard Manager**: Cliphist + Rofi
 - **Screenshot Tool**: Grim + Slurp
+- **Lockscreen**: Hyprlock
 - **Notification Daemon**: Dunst
 - **Terminal**: Kitty
 - **System Info**: Fastfetch
