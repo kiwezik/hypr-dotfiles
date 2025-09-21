@@ -1,4 +1,3 @@
-# put this file in "/var/lib/flatpak/app/com.github.taiko2k.tauonmb/current/active/files/bin/src/tauon/theme/Charmed"(for flatpak) and choose Charmed theme in tauon settings.
 
 #Tauon Music Box theme file
 
@@ -36,6 +35,7 @@
 255,255,255,30		playing highlight
 255,255,255,40		select highlight
 86,182,176		gallery highlight
+0,0,0,0     column bar background
 
 #-Menu-------------
 
