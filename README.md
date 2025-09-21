@@ -4,7 +4,7 @@ This configuration is still under development. Things might break or change.
 **THIS WILL NOT WORK ON YOUR HARDWARE OUT OF THE BOX YET.**
 
 # hypr-dotfiles
-Just another Hyprland dotfiles. I like monochrome and transparent things, so I made this.
+I like transparent things, so I made this.
 
 # Components
 - **Window Manager**: Hyprland
