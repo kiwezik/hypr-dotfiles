@@ -6,6 +6,12 @@ This configuration is still under development. Things might break or change.
 # hypr-dotfiles
 I like transparent things, so I made this.
 
+# Screenshots
+
+![1](/screenshots/1.png?raw=true)
+![2](/screenshots/2.png?raw=true)
+![3](/screenshots/3.png?raw=true)
+
 # Components
 - **Window Manager**: Hyprland
 - **Bar**: Waybar
