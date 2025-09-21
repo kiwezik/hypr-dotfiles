@@ -1,6 +1,7 @@
 * {
     text-color: rgba(255, 255, 255, 1);
     background-color: rgba (44, 44, 44, 0.3);
+    font: "JetBrainsMono Nerd Font Propo Light 12";
 }
 #window {
     height: 438px;
