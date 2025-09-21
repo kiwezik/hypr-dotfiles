@@ -1,0 +1,46 @@
+[global]
+font = JetBrainsMono Nerd Font Propo Light 12
+format = "<b>%a</b>:\n%s\n%b"
+sort = yes
+idle_threshold = 0
+origin = bottom-right
+transparency = 30
+width = 285
+mouse_left_click = close_current
+mouse_right_click = close_all
+mouse_middle_click = do_action
+browser = /usr/bin/xdg-open
+padding = 10
+indicate_hidden = yes
+show_indicators = yes
+horizontal_padding = 10
+frame_width = 0
+corner_radius = 20
+offset = (5, 15)
+separator_height = 2
+word_wrap = yes
+ignore_newline = no
+show_indicators = no
+stack_duplicates = false
+hide_duplicate_count = yes
+notification_limit = 4
+
+[urgency_low]
+background = "#37373759"
+foreground = "#FFFFFF"
+timeout = 7
+
+[urgency_normal]
+background = "#37373759"
+foreground = "#FFFFFF"
+timeout = 7
+
+[urgency_critical]
+background = "#37373759"
+foreground = "#FFFFFF"
+timeout = 7
+
+[ignore_tauon]
+    appname = *Tauon*
+    format = ""
+    history_ignore = yes

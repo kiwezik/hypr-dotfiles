@@ -13,6 +13,7 @@ Just another Hyprland dotfiles. I like monochrome and transparent things, so I m
 - **Wallpaper Manager**: SWWW + Rofi
 - **Clipboard Manager**: Cliphist + Rofi
 - **Screenshot Tool**: Grim + Slurp
+- **Notification Daemon**: Dunst
 - **Terminal**: Kitty
 - **System Info**: Fastfetch
 - **Music Player**: Tauon Music Box + custom theme
@@ -21,4 +22,3 @@ Just another Hyprland dotfiles. I like monochrome and transparent things, so I m
 - Firefox theme
 - Discord theme
 - GTK (and maybe Qt) themes
-- Notifications
