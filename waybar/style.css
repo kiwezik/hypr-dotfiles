@@ -1,118 +1,75 @@
 * {
+    font-family: "JetBrainsMono Nerd Font Propo";
     font-size: 14px;
+    color: #ffffff;
 }
-
 window#waybar {
     background-color: rgba (44, 44, 44, 0.3);
 }
-
-#battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#backlight,
-#network,
-#wireplumber,
-#custom-media,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#power-profiles-daemon,
-#mpd {
-
-    color: #ffffff;
-}
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
-}
-
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
-}
-
-#clock {
-    color: white;
-    background: rgba (55, 55, 55, 0.35);
-    border-radius: 20px;
-    margin-top: 4.5px;
-    margin-top: 4.5px;
-
-    margin-bottom: 4.5px;
-    margin-left: 6.5px;
-
-}
-
+#clock,
 #custom-gpu-usage, 
 #custom-gpu-temp,
 #cpu,
+#custom-cpu-temp,
 #memory,
-#custom-cpu-temp
-{
-    color: white;
-    background: rgba (55, 55, 55, 0.35);
-    margin-top: 4.5px;
-    margin-bottom: 4.5px;
-
-}
-#pulseaudio
-{
-    color: white;
-    background: rgba (55, 55, 55, 0.35);
-    margin-top: 4.5px;
-    margin-bottom: 4.5px;
-}
-
+#pulseaudio,
+#tray,
 #custom-separator,
-#language
-{
-    color: white;
-    background: rgba (55, 55, 55, 0.35);
-
-    margin-top: 4.5px;
-    margin-bottom: 4.5px;
-}
-#tray {
-    color: white;
-    background: rgba (55, 55, 55, 0.35);
-    margin-top: 4.5px;
-    margin-bottom: 4.5px;   
-
-}
-#memory,
-#keyboard-state,
-#custom-music
-{
-    color: white;
-    background: rgba (55, 55, 55, 0.35);
-    margin-top: 4.5px;
-    margin-bottom: 4.5px;
-    margin-right: 6.5px;
-}
+#custom-network-status,
 #window,
-#custom-os,
-#custom-gpu-usage
-{
-    color: white;
+#keyboard-state,
+#language,
+#custom-music,
+#custom-os{
     background: rgba (55, 55, 55, 0.35);
     margin-top: 4.5px;
-    margin-bottom: 4.5px;
+    margin-bottom:4.5px
+}
+#custom-os,
+#clock,
+#custom-gpu-usage,
+#pulseaudio,
+#window {
+    padding-left: 7px;
+}
+#keyboard-state,
+#custom-network-status {
+    margin-right: 5.5px;
+}
+#clock,
+#custom-os {
+    margin-left: 5.5px;
+}
+#keyboard-state,
+#custom-network-status {
+    padding-right: 7px;
+}
+#custom-separator{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #custom-network-status {
     font-size: 17px;
-    color: white;
-    background: rgba (55, 55, 55, 0.35);
-    margin-right: 6.5px;
-    margin-top: 4.5px;
-    margin-bottom: 4.5px;
-
+    padding-left: 7.5px;
 }
-#custom-os {
-    margin-left: 6.5px;
+#clock {
+    border-radius: 20px;
 }
-
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #000000;
+#clock,
+#custom-music {
+    padding-right: 7px;
+}
+#custom-os,
+#custom-gpu-usage,
+#window,
+#pulseaudio {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#keyboard-state,
+#custom-network-status,
+#custom-music,
+#memory {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
