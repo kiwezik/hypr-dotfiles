@@ -1,7 +1,8 @@
 configuration {
-	modi: "run,drun";
+	modi: "run,drun,filebrowser";
 	display-run: "Run";
 	display-drun: "DRun";
+	display-filebrowser: "Files";
 	show-icons:      true;
 	sidebar-mode:    true;
 }
