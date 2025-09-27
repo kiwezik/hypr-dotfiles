@@ -94,7 +94,7 @@
         "format": "{}",
         "exec": "~/hypr-dotfiles/waybar/network-status.sh",
         "return-type": "json",
-        "on-click": "nm-connection-editor",
+        "on-click": "kitty nmtui",
         "tooltip": false
     }
 }
