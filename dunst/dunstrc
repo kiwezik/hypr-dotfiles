@@ -44,3 +44,8 @@ timeout = 7
     appname = *Tauon*
     format = ""
     history_ignore = yes
+
+[ignore_spotify]
+    appname = *Spotify*
+    format = ""
+    history_ignore = yes
